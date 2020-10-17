@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _default={ON_OPEN:'cia.socket.open',ON_CLOSE:'cia.socket.close',ON_ERROR:'cia.socket.error',ON_MESSAGE:'cia.socket.message',ON_SPEED_CHANGE:'cia.socket.speed'};exports.default=_default;

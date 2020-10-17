@@ -1,0 +1,1 @@
+var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");Object.defineProperty(exports,"__esModule",{value:true});exports.localStorage=void 0;var _asyncStorage=_interopRequireDefault(require("@react-native-community/async-storage"));var localStorage=_asyncStorage.default;exports.localStorage=localStorage;

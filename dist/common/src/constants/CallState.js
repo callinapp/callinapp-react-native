@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _default={NEW:0,REQUESTING:1,TRYING:2,RECOVERING:3,RINGING:4,ANSWERING:5,EARLY:6,ACTIVE:7,HELD:8,HANGUP:9,DESTROYED:10,PURGE:11};exports.default=_default;
