@@ -1,32 +1,32 @@
 {
   "_args": [
     [
-      "@callinapp/react-native@1.0.1",
+      "@callinapp/react-native@1.0.2",
       "/home/baopn/Desktop/HH/callinapp-node/react-native/examples/DemoExpoApp"
     ]
   ],
-  "_from": "@callinapp/react-native@1.0.1",
-  "_id": "@callinapp/react-native@1.0.1",
+  "_from": "@callinapp/react-native@1.0.2",
+  "_id": "@callinapp/react-native@1.0.2",
   "_inBundle": false,
-  "_integrity": "sha512-mfpkcJMA6+Gd5e14nqy3y8mdi/cx8yNuyMBhxehwr1HDURk/T2gY0iUU+EyIVVIWXMq/GNhk0ADTs5esnwoFcQ==",
+  "_integrity": "sha512-cmQkQzvuD9cIeC5BM2h0YBKq4WVXzRWUf9JLEaxIB1J4kcVv91PrvW7rIReqfzw5Rd/K5FjuTQ9q8pDV5jpM1A==",
   "_location": "/@callinapp/react-native",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@callinapp/react-native@1.0.1",
+    "raw": "@callinapp/react-native@1.0.2",
     "name": "@callinapp/react-native",
     "escapedName": "@callinapp%2freact-native",
     "scope": "@callinapp",
-    "rawSpec": "1.0.1",
+    "rawSpec": "1.0.2",
     "saveSpec": null,
-    "fetchSpec": "1.0.1"
+    "fetchSpec": "1.0.2"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@callinapp/react-native/-/react-native-1.0.1.tgz",
-  "_spec": "1.0.1",
+  "_resolved": "https://registry.npmjs.org/@callinapp/react-native/-/react-native-1.0.2.tgz",
+  "_spec": "1.0.2",
   "_where": "/home/baopn/Desktop/HH/callinapp-node/react-native/examples/DemoExpoApp",
   "author": {
     "name": "Bao Pham"
@@ -82,5 +82,5 @@
     "postinstall": "node ./scripts/install_dependencies.js",
     "prepublishOnly": "rimraf dist && npm run build"
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
