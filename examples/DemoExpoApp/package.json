@@ -7,7 +7,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@callinapp/react-native": "^1.0.1",
+    "@callinapp/react-native": "^1.0.2",
     "@react-native-community/async-storage": "^1.12.1",
     "expo": "~39.0.2",
     "expo-splash-screen": "~0.6.2",
