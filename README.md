@@ -1,6 +1,13 @@
 ## Introductions:
 The Call In App JavaScript SDK for integrating the Call In App features to your React Native app.
 
+## Peer Dependencies
+The following dependencies should be installed manually if they are not installed automatically along with `@callinapp/react-native`
+
+`react-native-webrtc`
+`@react-native-community/async-storage`
+`react-native-incall-manager`
+
 ## SDK usage guidelines:
 Main components:
 
@@ -35,7 +42,7 @@ Main components:
             
             + autoReconnect: Default: true
             
-            + autoRecoveryCall: Auto recovery the call when browser tab closed unexpectedly. Default: true
+            + autoRecoveryCall: Auto recovery the call when app closed unexpectedly. Default: true
 
     - **Properties**:
         - isLoggedIn: Whether user logged in.
