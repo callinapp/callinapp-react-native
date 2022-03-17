@@ -1,22 +1,54 @@
 {
-  "name": "@callinapp/react-native",
-  "version": "1.0.4",
-  "description": "Call In App SDK for React Native",
-  "main": "dist/react-native/index",
-  "module": "dist/react-native/index",
-  "react-native": "dist/react-native/index",
-  "files": [
-    "dist"
+  "_from": "@callinapp/react-native@1.0.5",
+  "_id": "@callinapp/react-native@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-cACLfay4emdVBuZOD6xsmpl0+zo5WbM83yXA4KgCNgcrz8HtIAA+f3XS/CWKR/8N+7ToQK4SgkMGYjEA3YK0Uw==",
+  "_location": "/@callinapp/react-native",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@callinapp/react-native@1.0.5",
+    "name": "@callinapp/react-native",
+    "escapedName": "@callinapp%2freact-native",
+    "scope": "@callinapp",
+    "rawSpec": "1.0.5",
+    "saveSpec": null,
+    "fetchSpec": "1.0.5"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
   ],
+  "_resolved": "https://registry.npmjs.org/@callinapp/react-native/-/react-native-1.0.5.tgz",
+  "_shasum": "ca7a71138274582f8c048648f4fea370bb75a1ee",
+  "_spec": "@callinapp/react-native@1.0.5",
+  "_where": "/home/baopn/Desktop/CIA/callinapp-node/react-native/examples/DemoExpoApp",
+  "author": {
+    "name": "Bao Pham"
+  },
+  "bugs": {
+    "url": "https://github.com/callinapp/callinapp-react-native/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Call In App SDK for React Native",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "execa": "^4.0.3",
+    "listr": "^0.14.3",
+    "metro-react-native-babel-preset": "^0.63.0",
+    "rimraf": "^3.0.2"
+  },
   "directories": {
     "example": "examples"
   },
-  "scripts": {
-    "prepublishOnly": "rimraf dist && npm run build",
-    "build": "npm run build-common && npm run build-react-native",
-    "build-common": "babel ../common -d dist/common",
-    "build-react-native": "babel index.js -d dist/react-native"
-  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://callinapp.com",
   "keywords": [
     "call in app",
     "react native",
@@ -27,27 +59,28 @@
     "integrated call",
     "in-app call"
   ],
-  "author": "Bao Pham",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/cli": "^7.11.6",
-    "@babel/core": "^7.11.6",
-    "execa": "^4.0.3",
-    "listr": "^0.14.3",
-    "metro-react-native-babel-preset": "^0.63.0",
-    "rimraf": "^3.0.2"
-  },
-  "dependencies": {},
+  "main": "dist/react-native/index",
+  "module": "dist/react-native/index",
+  "name": "@callinapp/react-native",
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
     "react-native-webrtc": "*",
     "@react-native-community/async-storage": "*",
-    "react-native-incall-manager": "*"
+    "react-native-incall-manager": "*",
+    "react-native-get-random-values": "*"
   },
-  "homepage": "https://callinapp.com",
+  "react-native": "dist/react-native/index",
   "repository": {
     "type": "git",
-    "url": "https://github.com/callinapp/callinapp-react-native"
-  }
+    "url": "git+https://github.com/callinapp/callinapp-react-native.git"
+  },
+  "scripts": {
+    "build": "npm run build-common && npm run build-react-native",
+    "build-common": "babel ../common -d dist/common",
+    "build-react-native": "babel index.js -d dist/react-native",
+    "prepublishOnly": "rimraf dist && npm run build"
+  },
+  "version": "1.0.5"
 }

@@ -2,11 +2,20 @@
 The Call In App JavaScript SDK for integrating the Call In App features to your React Native app.
 
 ## Peer Dependencies
-The following dependencies should be installed manually if they are not installed automatically along with `@callinapp/react-native`
+The following dependencies should be installed manually if they are not installed automatically along with `@callinapp/react-native`:
 
 `react-native-webrtc`
+
 `@react-native-community/async-storage`
+
 `react-native-incall-manager`
+
+`react-native-get-random-values`
+
+## Important notes
+Must add this line before `import @callinapp/react-native`
+
+`import 'react-native-get-random-values'`
 
 ## SDK usage guidelines:
 Main components:

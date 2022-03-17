@@ -1,3 +1,5 @@
+##### - V1.0.5
+ + Update plan-b
 ##### - V1.0.4
  + Use peerDependencies instead of installing them using script
 ##### - V1.0.3

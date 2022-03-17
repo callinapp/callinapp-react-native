@@ -1,3 +1,4 @@
+import 'react-native-get-random-values';
 import { CallInAppSession, CallInAppEvent, CallState } from '@callinapp/react-native';
 import { ConnectionStatus, UserStatus } from './constants';
 import {
